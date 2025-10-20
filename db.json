@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn A",
+      "email": "nguyenvana@gmail.com",
+      "avatar": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị B",
+      "email": "tranthib@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 3,
+      "name": "Lê Minh C",
+      "email": "leminhc@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": 4,
+      "name": "Phạm Hữu D",
+      "email": "phamhuud@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": 5,
+      "name": "Đỗ Mai E",
+      "email": "domaie@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": 6,
+      "name": "Hoàng Gia F",
+      "email": "hoanggiaf@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+      "id": 7,
+      "name": "Lý Quốc G",
+      "email": "lyquocg@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+      "id": 8,
+      "name": "Bùi Anh H",
+      "email": "buianhh@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": 9,
+      "name": "Trịnh Thanh I",
+      "email": "trinhanhi@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "id": 10,
+      "name": "Võ Đức K",
+      "email": "voduck@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=10"
+    },
+    {
+      "name": "TestImnAGE",
+      "email": "vykid9@gmail.com",
+      "avatar": "blob:http://localhost:3000/3806c0cd-8864-4504-8f23-99e87f6a4a35",
+      "avatarFile": {
+        "0": {}
+      },
+      "id": 11
+    },
+    {
+      "name": "TestImnAGE",
+      "email": "vykid9@gmail.com",
+      "avatar": "blob:http://localhost:3000/7f8f497e-0e2f-4ad9-a731-6399b9f08ab1",
+      "avatarFile": {
+        "0": {}
+      },
+      "id": 12
+    },
+    {
+      "name": "TestImnAGE",
+      "email": "vykid9@gmail.com",
+      "avatar": "blob:http://localhost:3000/413bc010-9fe3-4aa7-bbc9-61af2549aafd",
+      "avatarFile": {
+        "0": {}
+      },
+      "id": 13
+    },
+    {
+      "name": "product9",
+      "email": "vy9@gmail.com",
+      "avatar": "blob:http://localhost:3000/1445088c-37ab-44a1-a106-a2d7de79c652",
+      "avatarFile": {
+        "0": {}
+      },
+      "id": 14
+    }
+  ]
+}

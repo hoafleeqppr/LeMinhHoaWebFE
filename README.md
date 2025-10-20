@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+Dự án React quản lý danh sách với **chức năng CRUD**, sử dụng **Material UI**, **axios** và **mock API (`json-server`)**.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📁 Cấu trúc dự án
 
-## Available Scripts
+project-root/
+│
+├─ src/
+│ ├─ components/
+│ │ └─ Layout.js
+│ ├─ pages/
+│ │ └─ Page.js
+│ ├─ services/
+│ │ └─ api.js
+│ └─ App.js
+├─ db.json
+├─ package.json
+└─ README.md
 
-In the project directory, you can run:
+## 🛠️ Yêu cầu
 
-### `npm start`
+- Node.js >= 18
+- npm >= 9
+- json-server (cài toàn cục hoặc local)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚡ Cài đặt dự án
 
-### `npm test`
+1. Clone repo hoặc copy source code:
+   git clone <repo-url>
+   cd <project-folder>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Cài dependencies:
+   npm install
 
-### `npm run build`
+- Cài json-server (nếu chưa có):
+  npm install -g json-server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📝 Tạo mock API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Tạo file db.json ở root project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+{
+"users": [
+{
+"id": 1,
+"name": "Nguyễn Văn A",
+"email": "nguyenvana@gmail.com",
+"avatar": "https://i.pravatar.cc/150?img=1"
+},
+{
+"id": 2,
+"name": "Trần Thị B",
+"email": "tranthib@example.com",
+"avatar": "https://i.pravatar.cc/150?img=2"
+}
+]
+}
 
-### `npm run eject`
+- Chạy server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+json-server --watch db.json --port 3001
+Endpoints:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+GET /users → Lấy danh sách người dùng
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+POST /users → Thêm người dùng mới
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+PUT /users/:id → Cập nhật người dùng
 
-## Learn More
+DELETE /users/:id → Xóa người dùng
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+⚠️ Lưu ý: json-server phải chạy trước khi khởi động React app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🚀 Chạy dự án React
+npm start
+Mở trình duyệt: http://localhost:3000
 
-### Code Splitting
+Dữ liệu người dùng được load từ mock API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Hỗ trợ chế độ sáng/tối với theme lưu trong localStorage
 
-### Analyzing the Bundle Size
+🖥️ Hướng dẫn sử dụng giao diện CRUD
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Xem danh sách người dùng
+   Mở trang chính, danh sách người dùng sẽ hiển thị trong bảng.
 
-### Making a Progressive Web App
+2. Thêm người dùng
+   Click nút Thêm → Modal form hiện ra → Nhập ảnh, tên và email → Nhấn Lưu.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Dữ liệu sẽ được gửi POST tới /users và cập nhật danh sách.
 
-### Advanced Configuration
+3. Sửa người dùng
+   Click nút Sửa ở hàng người dùng → Modal form mở → Chỉnh sửa thông tin → Nhấn Lưu.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Dữ liệu sẽ được gửi PUT tới /users/:id và cập nhật.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Xóa người dùng
+   Click nút Xóa → Xác nhận → Dữ liệu sẽ gửi DELETE tới /users/:id và bảng cập nhật.
