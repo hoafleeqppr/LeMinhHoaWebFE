@@ -39,9 +39,6 @@ export default function UserTable({users, onDelete, page, rowsPerPage, totalUser
                                             {u.name}
                                         </TableCell>
                                         <TableCell>
-                                            {u.name}
-                                        </TableCell>
-                                        <TableCell>
                                             {u.email}
                                         </TableCell>
                                         <TableCell>
