@@ -4,98 +4,115 @@
       "id": "1",
       "name": "Nguyễn Văn Anh",
       "email": "nguyenvana@gmail.com",
-      "avatar": "https://i.pravatar.cc/150?img=1",
-      "avatarFile": {}
+      "birthday": "1995-03-12"
     },
     {
       "id": "2",
-      "name": "Trần Thị B",
-      "email": "tranthib@example.com",
-      "avatar": "https://i.pravatar.cc/150?img=2"
+      "name": "Trần Thị Mai",
+      "email": "tranthimai@gmail.com",
+      "birthday": "1998-07-25"
     },
     {
       "id": "3",
-      "name": "Lê Minh C",
-      "email": "leminhc@example.com",
-      "avatar": "https://i.pravatar.cc/150?img=3"
+      "name": "Phạm Hữu Tài",
+      "email": "phamhuutai@gmail.com",
+      "birthday": "1994-11-02"
     },
     {
       "id": "4",
-      "name": "Phạm Hữu D",
-      "email": "phamhuud@example.com",
-      "avatar": "https://i.pravatar.cc/150?img=4"
+      "name": "Lê Thị Hạnh",
+      "email": "lethihanh@gmail.com",
+      "birthday": "1997-01-18"
     },
     {
       "id": "5",
-      "name": "Đỗ Mai E",
-      "email": "domaie@example.com",
-      "avatar": "https://i.pravatar.cc/150?img=5"
+      "name": "Đỗ Minh Tuấn",
+      "email": "dominhtuan@gmail.com",
+      "birthday": "1993-09-06"
     },
     {
       "id": "6",
-      "name": "Hoàng Gia F",
-      "email": "hoanggiaf@example.com",
-      "avatar": "https://i.pravatar.cc/150?img=6"
+      "name": "Vũ Thị Lan",
+      "email": "vuthilan@gmail.com",
+      "birthday": "1999-12-21"
     },
     {
       "id": "7",
-      "name": "Lý Quốc G",
-      "email": "lyquocg@example.com",
-      "avatar": "https://i.pravatar.cc/150?img=7"
+      "name": "Hoàng Đức Trung",
+      "email": "hoangductrung@gmail.com",
+      "birthday": "1996-06-30"
     },
     {
       "id": "8",
-      "name": "Bùi Anh H",
-      "email": "buianhh@example.com",
-      "avatar": "https://i.pravatar.cc/150?img=8"
+      "name": "Bùi Ngọc Diệp",
+      "email": "buingocdiep@gmail.com",
+      "birthday": "2000-02-14"
     },
     {
       "id": "9",
-      "name": "Trịnh Thanh I",
-      "email": "trinhanhi@example.com",
-      "avatar": "https://i.pravatar.cc/150?img=9"
+      "name": "Ngô Văn Phúc",
+      "email": "ngovanphuc@gmail.com",
+      "birthday": "1992-05-19"
     },
     {
       "id": "10",
-      "name": "Võ Đức K",
-      "email": "voduck@example.com",
-      "avatar": "https://i.pravatar.cc/150?img=10"
+      "name": "Phan Thị Hoa",
+      "email": "phanthihoa@gmail.com",
+      "birthday": "1998-10-08"
     },
     {
-      "name": "TestImnAGE",
-      "email": "vykid9@gmail.com",
-      "avatar": "blob:http://localhost:3000/3806c0cd-8864-4504-8f23-99e87f6a4a35",
-      "avatarFile": {
-        "0": {}
-      },
-      "id": "11"
+      "id": "11",
+      "name": "Lý Minh Khôi",
+      "email": "lyminhkhoi@gmail.com",
+      "birthday": "1995-04-03"
     },
     {
-      "name": "TestImnAGE",
-      "email": "vykid9@gmail.com",
-      "avatar": "blob:http://localhost:3000/7f8f497e-0e2f-4ad9-a731-6399b9f08ab1",
-      "avatarFile": {
-        "0": {}
-      },
-      "id": "12"
+      "id": "12",
+      "name": "Nguyễn Thu Trang",
+      "email": "nguyenthutrang@gmail.com",
+      "birthday": "1999-07-11"
     },
     {
-      "name": "TestImnAGE",
-      "email": "vykid9@gmail.com",
-      "avatar": "blob:http://localhost:3000/413bc010-9fe3-4aa7-bbc9-61af2549aafd",
-      "avatarFile": {
-        "0": {}
-      },
-      "id": "13"
+      "id": "13",
+      "name": "Trịnh Quốc Huy",
+      "email": "trinhquochuy@gmail.com",
+      "birthday": "1994-01-29"
     },
     {
-      "name": "product9",
-      "email": "vy9@gmail.com",
-      "avatar": "blob:http://localhost:3000/1445088c-37ab-44a1-a106-a2d7de79c652",
-      "avatarFile": {
-        "0": {}
-      },
-      "id": "14"
+      "id": "14",
+      "name": "Đặng Thị Yến",
+      "email": "dangthiyen@gmail.com",
+      "birthday": "1997-11-22"
+    },
+    {
+      "id": "15",
+      "name": "Phùng Đức Long",
+      "email": "phungduclong@gmail.com",
+      "birthday": "1993-03-07"
+    },
+    {
+      "id": "16",
+      "name": "Tạ Bảo Ngọc",
+      "email": "tabaongoc@gmail.com",
+      "birthday": "2001-08-17"
+    },
+    {
+      "id": "17",
+      "name": "Trương Văn Hào",
+      "email": "truongvanhao@gmail.com",
+      "birthday": "1996-09-10"
+    },
+    {
+      "id": "18",
+      "name": "Nguyễn Thị Minh Châu",
+      "email": "nguyenthiminhchau@gmail.com",
+      "birthday": "1998-12-05"
+    },
+    {
+      "id": "19",
+      "name": "Lâm Anh Tuấn",
+      "email": "lamanhtuan@gmail.com",
+      "birthday": "1995-02-26"
     }
   ]
 }
